@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Papel / Documento -->
+  <path d="M160 120 h140 l80 80 v200 a24 24 0 0 1 -24 24 H160 a24 24 0 0 1 -24 -24 V144 a24 24 0 0 1 24 -24 z" fill="#0b1329" opacity="0.92"/>
+  <path d="M300 120 v64 a16 16 0 0 0 16 16 h64" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Linhas do documento -->
+  <line x1="180" y1="230" x2="280" y2="230" stroke="#34d399" stroke-width="12" stroke-linecap="round"/>
+  <line x1="180" y1="275" x2="330" y2="275" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="180" y1="315" x2="290" y2="315" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="180" y1="365" x2="250" y2="365" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <!-- Cantoneiras de Scan estilo CamScanner -->
+  <path d="M96 160 v-48 a16 16 0 0 1 16 -16 h48" fill="none" stroke="url(#glow)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M416 160 v-48 a16 16 0 0 0 -16 -16 h-48" fill="none" stroke="url(#glow)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M96 352 v48 a16 16 0 0 0 16 16 h48" fill="none" stroke="url(#glow)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M416 352 v48 a16 16 0 0 1 -16 16 h-48" fill="none" stroke="url(#glow)" stroke-width="16" stroke-linecap="round"/>
+  <!-- Laser de Scan -->
+  <line x1="96" y1="256" x2="416" y2="256" stroke="#34d399" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+</svg>
